@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "Angular 2 is impressive",
+            "description": "Angular 2 uses ES2015 and Components instead of traditional MVC"
+        },
+        {
+            "id": 2,
+            "title": "React better than Angular",
+            "description": "React has head start with Components."
+        },
+        {
+            "id": 3,
+            "title": "Flux Vs Redux",
+            "description": "Redux takes a simpler approach than Flux"
+        },
+        {
+            "id": 4,
+            "title": "MVC Vs Redux",
+            "description": "Is Redux better than MVC"
+        }
+    ]
+}
