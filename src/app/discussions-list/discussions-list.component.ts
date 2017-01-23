@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {DataAccessService} from '../data-access.service';
+import {DataAccessService} from '../services/data-access.service';
 
 @Component({
   selector: 'app-discussions-list',

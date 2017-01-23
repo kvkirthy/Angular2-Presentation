@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
+import {DataAccessService} from './services/data-access.service';
 
 import { AppComponent } from './app.component';
 import { DiscussionsListComponent } from './discussions-list/discussions-list.component';
@@ -18,7 +19,7 @@ import { DiscussionsListComponent } from './discussions-list/discussions-list.co
     HttpModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [DataAccessService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
