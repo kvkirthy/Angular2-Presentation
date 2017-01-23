@@ -4,6 +4,7 @@
       <th>Id</th>
       <th>Title</th>
       <th>Description</th>
+      <th>Discussion Start Time</th>
     </tr>
   </thead>
   <tbody>
@@ -11,6 +12,7 @@
       <td>{{item.id}}</td>
       <td appHighlighter>{{item.title}}</td>
       <td>{{item.description}}</td>      
+      <td>{{item.startDateTime | date: "dd/MM/yy hh:mm"}}</td>
     </tr>
   </tbody>
 
