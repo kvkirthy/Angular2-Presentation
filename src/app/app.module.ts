@@ -8,12 +8,14 @@ import {DataAccessService} from './services/data-access.service';
 import { AppComponent } from './app.component';
 import { DiscussionsListComponent } from './discussions-list/discussions-list.component';
 import { DiscussionDetailsComponent } from './discussion-details/discussion-details.component';
+import { HighlighterDirective } from './directives/highlighter.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     DiscussionsListComponent,
-    DiscussionDetailsComponent
+    DiscussionDetailsComponent,
+    HighlighterDirective
   ],
   imports: [
     BrowserModule,
