@@ -15,4 +15,9 @@ export class DataAccessService {
       
   }
 
+  geDiscussion(id: string): Observable<any>{
+    return this.http.get(`http://localhost:3000/data/${id}`)
+      .map((r:Response) => r.json());
+  }
+
 }

@@ -2,12 +2,17 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {AppComponent} from './app.component';
 import {DiscussionsListComponent} from './discussions-list/discussions-list.component';
+import {DiscussionDetailsComponent} from './discussion-details/discussion-details.component';
 
 const routes: Routes = [
   {
     path: 'home',
-    component: DiscussionsListComponent,
-    children: []
+    component: DiscussionsListComponent
+    
+  },
+  {
+    path: 'discussion/:id',
+    component: DiscussionDetailsComponent
   },
   {
     path: "",
